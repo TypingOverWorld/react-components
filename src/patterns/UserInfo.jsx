@@ -1,3 +1,5 @@
+// Based on component from React Docs https://reactjs.org/docs/components-and-props.html
+
 import UserAvatar from '../components/user/UserAvatar';
 import UserName from '../components/user/UserName';
 

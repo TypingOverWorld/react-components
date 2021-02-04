@@ -1,3 +1,5 @@
+// Based on component from React Docs https://reactjs.org/docs/components-and-props.html
+
 import formatDate from '../utils/formatDate'
 
 import UserInfo from './UserInfo';
