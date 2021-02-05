@@ -1,6 +1,6 @@
 import './App.css';
 
-import BlogContent from './components/BlogContent';
+import BoilingCalculator from './components/BoilingCalculator';
 
 // const comment = {
 //   date: new Date(),
@@ -11,15 +11,15 @@ import BlogContent from './components/BlogContent';
 //   },
 // };
 
-const posts = [
-  { id: 1, title: 'Title One', content: 'An example content description.' },
-  { id: 2, title: 'Second Title', content: 'This blog has content too.' }
-];
+// const posts = [
+//   { id: 1, title: 'Title One', content: 'An example content description.' },
+//   { id: 2, title: 'Second Title', content: 'This blog has content too.' }
+// ];
 
 function App() {
   return (
     <div className="App">
-      <BlogContent posts={posts} />
+      <BoilingCalculator />
     </div>
   );
 }
