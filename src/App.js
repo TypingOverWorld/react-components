@@ -1,6 +1,6 @@
 import './App.css';
 
-import LoginControl from './components/auth/LoginControl';
+import BlogContent from './components/BlogContent';
 
 // const comment = {
 //   date: new Date(),
@@ -11,10 +11,15 @@ import LoginControl from './components/auth/LoginControl';
 //   },
 // };
 
+const posts = [
+  { id: 1, title: 'Title One', content: 'An example content description.' },
+  { id: 2, title: 'Second Title', content: 'This blog has content too.' }
+];
+
 function App() {
   return (
     <div className="App">
-      <LoginControl />
+      <BlogContent posts={posts} />
     </div>
   );
 }
