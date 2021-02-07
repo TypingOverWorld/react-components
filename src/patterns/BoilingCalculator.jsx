@@ -5,7 +5,7 @@
 // no matter which field the temperature was initially set in
 
 import React from 'react';
-import TemperatureInput from './forms/TemperatureInput';
+import TemperatureInput from '../components/forms/TemperatureInput';
 import { toCelsius, toFahrenheit, tryConvert } from '../utils/calculatorUtils';
 
 class BoilingCalculator extends React.Component {
